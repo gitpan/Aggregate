@@ -1,0 +1,17 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         Aggregate
+version:      0.301
+version_from: lib/Stream/Aggregate.pm
+installdirs:  site
+requires:
+    B::Deparse:                    0
+    Config::Checker:               0
+    Data::Dumper:                  0
+    Hash::Util:                    0
+    List::EvenMoreUtils:           0
+    List::Util:                    0
+    YAML::ConfigFile:              0
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.30
