@@ -17,14 +17,14 @@ use Stream::Aggregate::Random;
 use List::EvenMoreUtils qw(list_difference_position);
 use Tie::Function::Examples qw(%line_numbers);
 use Eval::LineNumbers qw(eval_line_numbers);
-use YAML::ConfigFile::YAML;
+use Config::YAMLMacros::YAML;
 use Carp qw(confess);
 
 require Exporter;
 
 our @ISA = qw(Exporter);
 our @EXPORT = qw(generate_aggregation_func);
-our $VERSION = 0.3_01;
+our $VERSION = 0.302;
 
 our $suppress_line_numbers = 0;
 

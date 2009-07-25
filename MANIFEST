@@ -6,4 +6,5 @@ MANIFEST			This list of files
 t/aggregate.t
 t/aggregate2.t
 t/stats.t
+CHANGELOG
 META.yml                                 Module meta-data (added by MakeMaker)

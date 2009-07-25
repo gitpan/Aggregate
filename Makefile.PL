@@ -14,7 +14,7 @@ WriteMakefile(
 		'List::Util'	=> 0,
 		'Config::Checker' 	=> 0,
 		'List::EvenMoreUtils'	=> 0,
-		'YAML::ConfigFile'	=> 0,
+		'Config::YAMLMacros'	=> 0,
 		'Data::Dumper'		=> 0,
 	},
 );
